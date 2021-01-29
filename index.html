@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Stalinist+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Valorant Map Selection</title>
+  </head>
+  <body>
+    <h1>Valorant Map Selection</h1>
+    <div class="flip-coin-part">
+     <button onclick="random()" class="flip-coin-btn" type="button" name="button">Flip Coin</button>
+    </div>
+    <div class="heads-tails-img">
+      <img id="head-or-tail-img" src="none" alt="">
+    </div>
+    <div class="reset-area">
+     <button onclick="reset()" id="reset-btn-id" class="reset-btn" type="button" name="button">Reset</button>
+    </div>
+    <div class="maps">
+      <p class="map-instruction">Click on the Map to Remove it.</p>
+      <button onclick="remimg1()" id="map-btn1" class="ascent" type="button" name="button">Ascent</button>
+      <button onclick="remimg2()" id="map-btn2" class="bind" type="button" name="button">Bind</button>
+      <button onclick="remimg3()" id="map-btn3" class="haven" type="button" name="button">Haven</button>
+      <button onclick="remimg4()" id="map-btn4" class="icebox" type="button" name="button">Icebox</button>
+      <button onclick="remimg5()" id="map-btn5" class="split" type="button" name="button">Split</button>
+      <br>
+      <button onclick="resetmaps()" id="reset-maps" class="reset-btn-maps" type="button" name="button">Reset Maps</button>
+      <!-- <img class="map-img" src="images/icebox.jpeg" alt="">
+      <img class="map-img" src="images/bind.jpeg" alt="">
+      <img class="map-img" src="images/haven.jpeg" alt="">
+      <img class="map-img" src="images/split.jpeg" alt="">
+      <img class="map-img" src="images/ascent.jpeg" alt=""> -->
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+  <footer class="foot">
+    <p class="footer-text">Made By Soham Sane</p>
+  </footer>
+</html>

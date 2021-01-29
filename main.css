@@ -1,0 +1,314 @@
+body {
+  background-color: #dc3d4b;
+}
+
+h1 {
+  font-family: 'Stalinist One', cursive;
+  color: #0F1821;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.flip-coin-part {
+  text-align: center;
+}
+
+.flip-coin-btn {
+height: 41px;
+width: 141px;
+background-color: #0F1821;
+font-family: 'Cabin', sans-serif;
+font-size: 17px;
+font-weight: bold;
+color: #dc3d4b;
+text-decoration: none;
+border-style: none;
+border-radius: 4px;
+margin-top: 50px;
+}
+
+.flip-coin-btn:focus {
+  height: 41px;
+  width: 141px;
+  background-color: #182430;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #dc3d4b;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.heads-tails-img {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.reset-area {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reset-btn {
+  height: 35px;
+  width: 130px;
+  background-color: #0F1821;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #dc3d4b;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  display: none;
+}
+
+.reset-btn:focus {
+  height: 35px;
+  width: 130px;
+  background-color: #182430;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #dc3d4b;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.maps {
+text-align: center;
+padding-top: 100px;
+}
+
+.map-img {
+  width: 10%;
+  height: 10%;
+  margin: 15px;
+}
+
+.map-img: {
+  filter: brightness(50%);
+}
+
+#map-btn1 {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn1:focus {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  outline: none;
+  filter: brightness(50%);
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn2 {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn2:focus {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  outline: none;
+  filter: brightness(50%);
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn3 {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn3:focus {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  outline: none;
+  filter: brightness(50%);
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn4 {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn4:focus {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  outline: none;
+  filter: brightness(50%);
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn5 {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+#map-btn5:focus {
+  background-size: contain;
+  background-repeat:no-repeat;
+  width: 200px;
+  height: 113px;
+  outline: none;
+  filter: brightness(50%);
+  border: none;
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-shadow: black 2px 1px;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.ascent {
+  background-image: url("images/ascent.jpeg");
+  margin: 15px;
+}
+
+.bind {
+  background-image: url("images/bind.jpeg");
+  margin: 15px;
+}
+
+.haven {
+  background-image: url("images/haven.jpeg");
+  margin: 15px;
+}
+
+.icebox {
+  background-image: url("images/icebox.jpeg");
+  margin: 15px;
+}
+
+.split {
+  background-image: url("images/split.jpeg");
+  margin: 15px;
+}
+
+.map-instruction {
+  font-family: 'Cabin', sans-serif;
+  color: #0F1821;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.reset-btn-maps {
+  height: 35px;
+  width: 130px;
+  background-color: #0F1821;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #dc3d4b;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.reset-btn-maps:focus {
+  height: 35px;
+  width: 130px;
+  background-color: #182430;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #dc3d4b;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer-text{
+  font-family: 'Cabin', sans-serif;
+  color: #0F1821;
+  font-size: 13px;
+}
+
+.foot {
+  text-align: center;
+  padding: 40px;
+}
