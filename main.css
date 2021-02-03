@@ -86,7 +86,12 @@ margin-top: 50px;
 
 .maps {
 text-align: center;
-padding-top: 100px;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+top: 650px;
 }
 
 .map-img {
@@ -271,6 +276,13 @@ padding-top: 100px;
   font-size: 17px;
 }
 
+.map-remaining {
+  font-family: 'Cabin', sans-serif;
+  color: #0F1821;
+  font-weight: bold;
+  font-size: 17px;
+}
+
 
 .reset-btn-maps {
   height: 35px;
@@ -306,9 +318,108 @@ padding-top: 100px;
   font-family: 'Cabin', sans-serif;
   color: #0F1821;
   font-size: 13px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 1200px;
+  padding-bottom: 40px;
 }
 
 .foot {
   text-align: center;
   padding: 40px;
+}
+
+#team-1 {
+  float: left;
+
+  width: 150px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  outline: none;
+  background-color: #182430;
+  color: #dc3d4b;
+  border: none;
+  position: absolute;
+  top: 335px;
+  left: 50px;
+}
+
+#team-2 {
+  float: right;
+
+  width: 150px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  outline: none;
+  background-color: #182430;
+  color: #dc3d4b;
+  border: none;
+  position: absolute;
+  top: 335px;
+  right: 49px;
+}
+
+.team-text {
+  font-family: 'Stalinist One', cursive;
+  float: left;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.team-text2 {
+  font-family: 'Stalinist One', cursive;
+  float: right;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 300px;
+  right: 50px;
+}
+
+.submit-btn1 {
+  float: left;
+  width: 150px;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  top: 360px;
+  left: 49px;
+}
+
+.submit-btn2 {
+  float: right;
+  width: 150px;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  top: 360px;
+  right: 49px;
+}
+
+#team1name {
+  float: left;
+  width: 145px;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  top: 390px;
+  left: 50px;
+  border: none;
+  outline: none;
+}
+
+#team2name {
+  float: right;
+  width: 145px;
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  top: 390px;
+  right: 50px;
+  border: none;
+  outline: none;
 }
