@@ -1,321 +1,114 @@
 body {
   background-color: #dc3d4b;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
 }
-
+.ascent, .bind, .haven, .icebox, .split, .team-text, .team-text2 {
+  font-family: 'Stalinist One', cursive;
+}
+.flip-coin-part, .heads-tails-img, .reset-area, .maps, .foot {
+  text-align: center;
+}
 h1 {
   font-family: 'Stalinist One', cursive;
   color: #0F1821;
   text-align: center;
   font-size: 3rem;
 }
-
-.flip-coin-part {
-  text-align: center;
-}
-
-.flip-coin-btn {
-height: 41px;
-width: 141px;
-background-color: #0F1821;
-font-family: 'Cabin', sans-serif;
-font-size: 17px;
-font-weight: bold;
-color: #dc3d4b;
-text-decoration: none;
-border-style: none;
-border-radius: 4px;
-margin-top: 50px;
-}
-
-.flip-coin-btn:focus {
-  height: 41px;
-  width: 141px;
-  background-color: #182430;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
+.flip-coin-btn, .reset-btn, .reset-btn-maps, .team-1-class, .team-2-class {
   color: #dc3d4b;
+}
+.flip-coin-btn, .reset-btn, .reset-btn-maps {
+  background-color: #0F1821;
+  font-weight: bold;
   text-decoration: none;
   border-style: none;
   border-radius: 4px;
   margin-top: 50px;
-  outline: none;
+  font-size: 17px;
+}
+.flip-coin-btn {
+  height: 41px;
+  width: 141px;
+}
+.flip-coin-btn:focus {
   cursor: pointer;
 }
-
 .heads-tails-img {
-  text-align: center;
   margin-top: 50px;
 }
-
 .reset-area {
-  text-align: center;
   margin-top: 10px;
 }
-
 .reset-btn {
   height: 35px;
   width: 130px;
-  background-color: #0F1821;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: #dc3d4b;
-  text-decoration: none;
-  border-style: none;
-  border-radius: 4px;
-  margin-top: 50px;
   display: none;
 }
-
 .reset-btn:focus {
-  height: 35px;
-  width: 130px;
-  background-color: #182430;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: #dc3d4b;
-  text-decoration: none;
-  border-style: none;
-  border-radius: 4px;
-  margin-top: 50px;
-  outline: none;
   cursor: pointer;
 }
-
 .maps {
-text-align: center;
-position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-top: 650px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 650px;
 }
-
 .map-img {
   width: 10%;
   height: 10%;
   margin: 15px;
 }
-
 .map-img: {
   filter: brightness(50%);
 }
-
-#map-btn1 {
+.ascent, .bind, .haven, .icebox, .split {
   background-size: contain;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   width: 200px;
   height: 113px;
   border: none;
-  font-family: 'Stalinist One', cursive;
   color: white;
   text-shadow: black 2px 1px;
-  font-size: 17px;
   display: inline-block;
+  margin: 15px;
+  font-size: 17px;
 }
-
-#map-btn1:focus {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
+.ascent:focus, .bind:focus, .haven:focus, .icebox:focus, .split:focus {
   outline: none;
   filter: brightness(50%);
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
 }
-
-#map-btn2 {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn2:focus {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  outline: none;
-  filter: brightness(50%);
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn3 {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn3:focus {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  outline: none;
-  filter: brightness(50%);
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn4 {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn4:focus {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  outline: none;
-  filter: brightness(50%);
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn5 {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
-#map-btn5:focus {
-  background-size: contain;
-  background-repeat:no-repeat;
-  width: 200px;
-  height: 113px;
-  outline: none;
-  filter: brightness(50%);
-  border: none;
-  font-family: 'Stalinist One', cursive;
-  color: white;
-  text-shadow: black 2px 1px;
-  font-size: 17px;
-  display: inline-block;
-}
-
 .ascent {
   background-image: url("images/ascent.jpeg");
-  margin: 15px;
 }
-
 .bind {
   background-image: url("images/bind.jpeg");
-  margin: 15px;
 }
-
 .haven {
   background-image: url("images/haven.jpeg");
-  margin: 15px;
 }
-
 .icebox {
   background-image: url("images/icebox.jpeg");
-  margin: 15px;
 }
-
 .split {
   background-image: url("images/split.jpeg");
-  margin: 15px;
 }
-
-.map-instruction {
-  font-family: 'Cabin', sans-serif;
+.map-instruction, .map-remaining, .footer-text {
   color: #0F1821;
-  font-weight: bold;
-  font-size: 17px;
 }
-
-.map-remaining {
-  font-family: 'Cabin', sans-serif;
-  color: #0F1821;
+.map-instruction, .map-remaining {
   font-weight: bold;
-  font-size: 17px;
 }
-
-
 .reset-btn-maps {
   height: 35px;
   width: 130px;
-  background-color: #0F1821;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: #dc3d4b;
-  text-decoration: none;
-  border-style: none;
-  border-radius: 4px;
-  margin-top: 50px;
 }
-
 .reset-btn-maps:focus {
-  height: 35px;
-  width: 130px;
-  background-color: #182430;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  font-weight: bold;
-  color: #dc3d4b;
-  text-decoration: none;
-  border-style: none;
-  border-radius: 4px;
-  margin-top: 50px;
-  outline: none;
   cursor: pointer;
 }
-
-.footer-text{
-  font-family: 'Cabin', sans-serif;
+.footer-text {
   color: #0F1821;
   font-size: 13px;
   position: absolute;
@@ -326,100 +119,69 @@ top: 650px;
   top: 1200px;
   padding-bottom: 40px;
 }
-
 .foot {
-  text-align: center;
   padding: 40px;
 }
-
-#team-1 {
+.team-1-class, .team-text, .submit-btn1, .team1name-class {
   float: left;
-
+}
+.team-1-class, .team-2-class, .submit-btn1, .submit-btn2 {
   width: 150px;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
-  outline: none;
-  background-color: #182430;
-  color: #dc3d4b;
+}
+.team-1-class, .team-2-class, .team1name-class, .team2name-class {
   border: none;
+}
+.team-1-class, .team-1-class:focus, .team-2-class, .team-2-class:focus {
+  background-color: #182430;
+}
+.team-1-class {
   position: absolute;
   top: 335px;
   left: 50px;
 }
-
-#team-2 {
-  float: right;
-
-  width: 150px;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
+.team-1-class:focus, .team-2-class:focus, .team1name-class:focus, .team2name-class:focus, .flip-coin-btn:focus, .reset-btn:focus, .reset-btn-maps:focus {
   outline: none;
-  background-color: #182430;
-  color: #dc3d4b;
   border: none;
+}
+.team-2-class, .team-text2, .submit-btn2, .team2name-class {
+  float: right;
+}
+.team-2-class {
   position: absolute;
   top: 335px;
   right: 49px;
 }
-
-.team-text {
-  font-family: 'Stalinist One', cursive;
-  float: left;
+.team-text, .team-text2 {
   font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   position: absolute;
   top: 300px;
+}
+.team-text {
   left: 50px;
 }
-
 .team-text2 {
-  font-family: 'Stalinist One', cursive;
-  float: right;
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: absolute;
-  top: 300px;
   right: 50px;
 }
-
 .submit-btn1 {
-  float: left;
-  width: 150px;
-  font-family: 'Cabin', sans-serif;
   position: absolute;
   top: 360px;
   left: 49px;
 }
-
 .submit-btn2 {
-  float: right;
-  width: 150px;
-  font-family: 'Cabin', sans-serif;
   position: absolute;
   top: 360px;
   right: 49px;
 }
-
-#team1name {
-  float: left;
+.team1name-class, .team2name-class {
   width: 145px;
-  font-family: 'Cabin', sans-serif;
   position: absolute;
   top: 390px;
-  left: 50px;
-  border: none;
-  outline: none;
 }
-
-#team2name {
-  float: right;
-  width: 145px;
-  font-family: 'Cabin', sans-serif;
-  position: absolute;
-  top: 390px;
+.team1name-class {
+  left: 50px;
+}
+.team2name-class {
   right: 50px;
-  border: none;
-  outline: none;
 }
