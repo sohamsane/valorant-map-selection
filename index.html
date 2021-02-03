@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Stalinist+One&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <title>Valorant Map Selection</title>
+    <title>Valorant Map Selection | Soham Sane</title>
   </head>
   <body>
     <h1>Valorant Map Selection</h1>
@@ -14,13 +14,40 @@
      <button onclick="random()" class="flip-coin-btn" type="button" name="button">Flip Coin</button>
     </div>
     <div class="heads-tails-img">
-      <img id="head-or-tail-img" src="none" alt="">
+      <img id="head-or-tail-img" src="" alt="">
     </div>
     <div class="reset-area">
      <button onclick="reset()" id="reset-btn-id" class="reset-btn" type="button" name="button">Reset</button>
     </div>
+    <div class="teams">
+      <p class="team-text">TEAM 1</p>
+      <p class="team-text2">TEAM 2</p>
+      <input id="team1name" type="input" name="" value="" placeholder="Team 1 Name">
+      <input id="team2name" type="input" name="" value="" placeholder="Team 2 Name">
+      <!-- <br>
+      <br>
+      <br>
+      <br>
+      <br> -->
+       <select id="team-1" name="">
+        <option value="-">-----</option>
+        <option value="Heads">Heads</option>
+        <option value="Tails">Tails</option>
+       </select>
+       <br>
+       <br>
+       <button class="submit-btn1" onclick="team1Heads()" type="button" name="button">Select</button>
+       <select id="team-2" name="">
+        <option value="-">-----</option>
+        <option value="Heads">Heads</option>
+        <option value="Tails">Tails</option>
+       </select>
+       <button class="submit-btn2" onclick="team2Heads()" type="button" name="button">Select</button>
+    </div>
     <div class="maps">
+      <p id="who-won-text" class="map-instruction"></p>
       <p class="map-instruction">Click on the Map to Remove it.</p>
+      <!-- <p class="map-remaining" id="mapsremainingtext">...</p> -->
       <button onclick="remimg1()" id="map-btn1" class="ascent" type="button" name="button">Ascent</button>
       <button onclick="remimg2()" id="map-btn2" class="bind" type="button" name="button">Bind</button>
       <button onclick="remimg3()" id="map-btn3" class="haven" type="button" name="button">Haven</button>
