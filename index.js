@@ -45,12 +45,17 @@ function remimg5() {
   document.getElementById("map-btn5").style.display = "none";
 }
 
+function remimg6() {
+  document.getElementById("map-btn6").style.display = "none";
+}
+
 function resetmaps() {
   document.getElementById("map-btn1").style.display = "inline-block";
   document.getElementById("map-btn2").style.display = "inline-block";
   document.getElementById("map-btn3").style.display = "inline-block";
   document.getElementById("map-btn4").style.display = "inline-block";
   document.getElementById("map-btn5").style.display = "inline-block";
+  document.getElementById("map-btn6").style.display = "inline-block";
 
 }
 
