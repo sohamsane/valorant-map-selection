@@ -3,21 +3,26 @@ body {
   font-family: 'Cabin', sans-serif;
   font-size: 17px;
 }
-.ascent, .bind, .haven, .icebox, .split, .team-text, .team-text2 {
+
+.ascent, .bind, .haven, .icebox, .split, .breeze, .team-text, .team-text2 {
   font-family: 'Stalinist One', cursive;
 }
+
 .flip-coin-part, .heads-tails-img, .reset-area, .maps, .foot {
   text-align: center;
 }
+
 h1 {
   font-family: 'Stalinist One', cursive;
   color: #0F1821;
   text-align: center;
   font-size: 3rem;
 }
+
 .flip-coin-btn, .reset-btn, .reset-btn-maps, .team-1-class, .team-2-class {
   color: #dc3d4b;
 }
+
 .flip-coin-btn, .reset-btn, .reset-btn-maps {
   background-color: #0F1821;
   font-weight: bold;
@@ -27,27 +32,34 @@ h1 {
   margin-top: 50px;
   font-size: 17px;
 }
+
 .flip-coin-btn {
   height: 41px;
   width: 141px;
 }
+
 .flip-coin-btn:focus {
   cursor: pointer;
 }
+
 .heads-tails-img {
   margin-top: 50px;
 }
+
 .reset-area {
   margin-top: 10px;
 }
+
 .reset-btn {
   height: 35px;
   width: 130px;
   display: none;
 }
+
 .reset-btn:focus {
   cursor: pointer;
 }
+
 .maps {
   position: absolute;
   margin-left: auto;
@@ -56,15 +68,18 @@ h1 {
   right: 0;
   top: 650px;
 }
+
 .map-img {
   width: 10%;
   height: 10%;
   margin: 15px;
 }
+
 .map-img: {
   filter: brightness(50%);
 }
-.ascent, .bind, .haven, .icebox, .split {
+
+.ascent, .bind, .haven, .icebox, .split, .breeze {
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
@@ -76,38 +91,53 @@ h1 {
   margin: 15px;
   font-size: 17px;
 }
-.ascent:focus, .bind:focus, .haven:focus, .icebox:focus, .split:focus {
+
+.ascent:focus, .bind:focus, .haven:focus, .icebox:focus, .split:focus, .breeze:focus {
   outline: none;
   filter: brightness(50%);
 }
+
 .ascent {
   background-image: url("images/ascent.jpeg");
 }
+
 .bind {
   background-image: url("images/bind.jpeg");
 }
+
 .haven {
   background-image: url("images/haven.jpeg");
 }
+
 .icebox {
   background-image: url("images/icebox.jpeg");
 }
+
 .split {
   background-image: url("images/split.jpeg");
 }
+
+.breeze {
+  background-image: url("images/breeze.jpg");
+}
+
 .map-instruction, .map-remaining, .footer-text {
   color: #0F1821;
 }
+
 .map-instruction, .map-remaining {
   font-weight: bold;
 }
+
 .reset-btn-maps {
   height: 35px;
   width: 130px;
 }
+
 .reset-btn-maps:focus {
   cursor: pointer;
 }
+
 .footer-text {
   color: #0F1821;
   font-size: 13px;
@@ -119,38 +149,48 @@ h1 {
   top: 1200px;
   padding-bottom: 40px;
 }
+
 .foot {
   padding: 40px;
 }
+
 .team-1-class, .team-text, .submit-btn1, .team1name-class {
   float: left;
 }
+
 .team-1-class, .team-2-class, .submit-btn1, .submit-btn2 {
   width: 150px;
 }
+
 .team-1-class, .team-2-class, .team1name-class, .team2name-class {
   border: none;
 }
+
 .team-1-class, .team-1-class:focus, .team-2-class, .team-2-class:focus {
   background-color: #182430;
 }
+
 .team-1-class {
   position: absolute;
   top: 335px;
   left: 50px;
 }
+
 .team-1-class:focus, .team-2-class:focus, .team1name-class:focus, .team2name-class:focus, .flip-coin-btn:focus, .reset-btn:focus, .reset-btn-maps:focus {
   outline: none;
   border: none;
 }
+
 .team-2-class, .team-text2, .submit-btn2, .team2name-class {
   float: right;
 }
+
 .team-2-class {
   position: absolute;
   top: 335px;
   right: 49px;
 }
+
 .team-text, .team-text2 {
   font-size: 20px;
   margin-top: 0;
@@ -158,30 +198,37 @@ h1 {
   position: absolute;
   top: 300px;
 }
+
 .team-text {
   left: 50px;
 }
+
 .team-text2 {
   right: 50px;
 }
+
 .submit-btn1 {
   position: absolute;
   top: 360px;
   left: 49px;
 }
+
 .submit-btn2 {
   position: absolute;
   top: 360px;
   right: 49px;
 }
+
 .team1name-class, .team2name-class {
   width: 145px;
   position: absolute;
   top: 390px;
 }
+
 .team1name-class {
   left: 50px;
 }
+
 .team2name-class {
   right: 50px;
 }
