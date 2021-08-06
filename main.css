@@ -1,11 +1,14 @@
 body {
-  background-color: #dc3d4b;
-  font-family: 'Cabin', sans-serif;
-  font-size: 17px;
+  background-color: #00060E;
+}
+
+@font-face {
+  font-family: Valorant;
+  src: url('Valorant Font.ttf');
 }
 
 .ascent, .bind, .haven, .icebox, .split, .breeze, .team-text, .team-text2 {
-  font-family: 'Stalinist One', cursive;
+  font-family: 'Valorant';
 }
 
 .flip-coin-part, .heads-tails-img, .reset-area, .maps, .foot {
@@ -13,29 +16,37 @@ body {
 }
 
 h1 {
-  font-family: 'Stalinist One', cursive;
-  color: #0F1821;
+  font-family: 'Valorant';
+  color: white;
   text-align: center;
   font-size: 3rem;
 }
 
+h2 {
+  font-family: 'Valorant';
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
 .flip-coin-btn, .reset-btn, .reset-btn-maps, .team-1-class, .team-2-class {
-  color: #dc3d4b;
+  color: white;
+  margin-top: 10px;
 }
 
 .flip-coin-btn, .reset-btn, .reset-btn-maps {
-  background-color: #0F1821;
+  background-color: black;
   font-weight: bold;
   text-decoration: none;
   border-style: none;
-  border-radius: 4px;
-  margin-top: 50px;
-  font-size: 17px;
+  border-radius: 0.25rem;
+  margin-top: 1.25;
+  font-size: 1.063rem;
 }
 
 .flip-coin-btn {
-  height: 41px;
-  width: 141px;
+  height: 2.563rem;
+  width: 8.813rem;
 }
 
 .flip-coin-btn:focus {
@@ -43,16 +54,16 @@ h1 {
 }
 
 .heads-tails-img {
-  margin-top: 50px;
+  margin-top: 1.25rem;
 }
 
 .reset-area {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .reset-btn {
-  height: 35px;
-  width: 130px;
+  height: 2.188rem;
+  width: 8.125rem;
   display: none;
 }
 
@@ -61,18 +72,14 @@ h1 {
 }
 
 .maps {
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 650px;
 }
 
 .map-img {
   width: 10%;
   height: 10%;
-  margin: 15px;
+  margin: 0.938rem;
 }
 
 .map-img: {
@@ -80,16 +87,17 @@ h1 {
 }
 
 .ascent, .bind, .haven, .icebox, .split, .breeze {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 200px;
-  height: 113px;
+  width: 12.5rem;
+  height: 7.063rem;
   border: none;
   color: white;
-  text-shadow: black 2px 1px;
+  text-shadow: black 0.125rem 0.063rem;
   display: inline-block;
-  margin: 15px;
-  font-size: 17px;
+  margin: 0.938rem;
+  font-size: 1.563rem;
+  border-radius: 0.313rem;
 }
 
 .ascent:focus, .bind:focus, .haven:focus, .icebox:focus, .split:focus, .breeze:focus {
@@ -97,8 +105,23 @@ h1 {
   filter: brightness(50%);
 }
 
+@keyframes fadeoutani {
+  from {
+    opacity: 100;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 .ascent {
   background-image: url("images/ascent.jpeg");
+}
+
+.fadeout {
+  animation-name: fadeoutani;
+  animation-duration: 1s;
 }
 
 .bind {
@@ -122,36 +145,25 @@ h1 {
 }
 
 .map-instruction, .map-remaining, .footer-text {
-  color: #0F1821;
+  color: white;
+  font-family: 'Valorant';
 }
 
 .map-instruction, .map-remaining {
   font-weight: bold;
 }
 
+.map-instruction {
+  margin-top: 4.375rem;
+}
+
 .reset-btn-maps {
-  height: 35px;
-  width: 130px;
+  height: 2.188rem;
+  width: 8.125rem;
 }
 
 .reset-btn-maps:focus {
   cursor: pointer;
-}
-
-.footer-text {
-  color: #0F1821;
-  font-size: 13px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 1200px;
-  padding-bottom: 40px;
-}
-
-.foot {
-  padding: 40px;
 }
 
 .team-1-class, .team-text, .submit-btn1, .team1name-class {
@@ -159,7 +171,13 @@ h1 {
 }
 
 .team-1-class, .team-2-class, .submit-btn1, .submit-btn2 {
-  width: 150px;
+  width: 13.125rem;
+  height: 1.875rem;
+  border-radius: 0.313rem;
+  outline: none;
+  border: none;
+  text-indent: 0.313rem;
+  font-family: 'Valorant';
 }
 
 .team-1-class, .team-2-class, .team1name-class, .team2name-class {
@@ -171,9 +189,7 @@ h1 {
 }
 
 .team-1-class {
-  position: absolute;
-  top: 335px;
-  left: 50px;
+  color: white;
 }
 
 .team-1-class:focus, .team-2-class:focus, .team1name-class:focus, .team2name-class:focus, .flip-coin-btn:focus, .reset-btn:focus, .reset-btn-maps:focus {
@@ -186,49 +202,144 @@ h1 {
 }
 
 .team-2-class {
-  position: absolute;
-  top: 335px;
-  right: 49px;
+  color: white;
+}
+
+.select-opt {
+  font-size: 1.25rem;
+}
+
+.select-opt:disabled {
+  font-size: 1.25rem;
+  background-color: white;
+  color: black;
 }
 
 .team-text, .team-text2 {
-  font-size: 20px;
+  font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 0;
   position: absolute;
-  top: 300px;
+  top: 7.813rem;
 }
 
 .team-text {
-  left: 50px;
+  left: 3.125rem;
+  color: white;
 }
 
 .team-text2 {
-  right: 50px;
-}
-
-.submit-btn1 {
-  position: absolute;
-  top: 360px;
-  left: 49px;
-}
-
-.submit-btn2 {
-  position: absolute;
-  top: 360px;
-  right: 49px;
+  right: 3.125rem;
+  color: white;
 }
 
 .team1name-class, .team2name-class {
-  width: 145px;
-  position: absolute;
-  top: 390px;
+  height: 1.875rem;
+  text-indent: 0.313rem;
+  border-radius: 0.313rem;
+  font-family: 'Valorant';
 }
 
 .team1name-class {
-  left: 50px;
+  left: 3.125rem;
 }
 
 .team2name-class {
-  right: 50px;
+  right: 3.125rem;
+}
+
+#coin {
+  position: relative;
+  margin: 1.25rem auto auto auto;
+  width: 13.875rem;
+  height: 13.875rem;
+  cursor: pointer;
+}
+
+#coin div {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+  -moz-box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+  box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+}
+
+.coin-div {
+  text-align: center;
+  margin-top: 3.125rem;
+}
+
+.side-a {
+  background-image: url('images/heads2.png');
+}
+
+.side-b {
+  background-image: url('images/tails2.png');
+}
+
+#coin {
+  transition: -webkit-transform 1s ease-in;
+  -webkit-transform-style: preserve-3d;
+}
+
+#coin div {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+}
+
+.side-a {
+  z-index: 100;
+}
+
+.side-b {
+  -webkit-transform: rotateY(-180deg);
+}
+
+#coin.heads {
+  -webkit-animation: flipHeads 3s ease-out forwards;
+  -moz-animation: flipHeads 3s ease-out forwards;
+  -o-animation: flipHeads 3s ease-out forwards;
+  animation: flipHeads 3s ease-out forwards;
+}
+
+#coin.tails {
+  -webkit-animation: flipTails 3s ease-out forwards;
+  -moz-animation: flipTails 3s ease-out forwards;
+  -o-animation: flipTails 3s ease-out forwards;
+  animation: flipTails 3s ease-out forwards;
+}
+
+@-webkit-keyframes flipHeads {
+  from {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+
+  to {
+    -webkit-transform: rotateY(1800deg);
+    -moz-transform: rotateY(1800deg);
+    transform: rotateY(1800deg);
+  }
+}
+
+@-webkit-keyframes flipTails {
+  from {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+
+  to {
+    -webkit-transform: rotateY(1980deg);
+    -moz-transform: rotateY(1980deg);
+    transform: rotateY(1980deg);
+  }
+}
+
+.team-text2 {
+  text-align: right;
 }
