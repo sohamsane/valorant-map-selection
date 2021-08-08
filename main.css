@@ -262,10 +262,11 @@ h2 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
-  -moz-box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
-  box-shadow: inset 0 0 1.25rem rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+  -webkit-box-shadow: inset 0 0 125% rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+  -moz-box-shadow: inset 0 0 125% rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
+  box-shadow: inset 0 0 125% rgba(255, 255, 255, .3), 0 0.75rem 1.25rem -0.625rem rgba(0, 0, 0, .4);
 }
+
 
 .coin-div {
   text-align: center;
@@ -274,10 +275,12 @@ h2 {
 
 .side-a {
   background-image: url('images/heads2.png');
+  background-repeat: no-repeat;
 }
 
 .side-b {
   background-image: url('images/tails2.png');
+  background-repeat: no-repeat;
 }
 
 #coin {
